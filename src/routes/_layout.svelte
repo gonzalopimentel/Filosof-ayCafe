@@ -2,6 +2,7 @@
   import Header from "../components/Header.svelte";
   import Nav from "../components/Nav.svelte";
   import Main from "../components/Main.svelte";
+  import Footer from "../components/Footer.svelte";
   export let segment;
 </script>
 
@@ -14,3 +15,4 @@
 <Main>
   <slot />
 </Main>
+<Footer />
