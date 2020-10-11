@@ -76,28 +76,28 @@
           <li>
             <a
               aria-current={segment === undefined ? 'page' : undefined}
-              href=".">home</a>
+              href=".">Inicio</a>
           </li>
           <li>
             <a
               aria-current={segment === 'about' ? 'page' : undefined}
-              href="about">about</a>
+              href="about">Presentación</a>
           </li>
           <li>
             <a
               aria-current={segment === 'contact' ? 'page' : undefined}
-              href="contact">contact</a>
+              href="contact">Contacto</a>
           </li>
           <li>
             <a
               aria-current={segment === 'general' ? 'page' : undefined}
-              href="general">general</a>
+              href="general">Destacados</a>
           </li>
           <li>
             <a
               rel="prefetch"
               aria-current={segment === 'blog' ? 'page' : undefined}
-              href="blog">blog</a>
+              href="blog">Blog</a>
           </li>
         </ul>
       </div>
